@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Testing the functionality of lexical scoping with the implementation of
+## local cache
 
-## Write a short comment describing this function
+## Creates a list of functions to set,get the matrix and it's inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Retrieves the Inverse of a function from cache, if not present calculates
+## the inverse and saves it back to cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
